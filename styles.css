@@ -1,106 +1,95 @@
-
+/* Configuración base */
 .columnas {
     display: flex;
 }
+
 
 .colizq {
     display: block;
     flex-basis: 33.33%;
 }
 
+
 .colder {
     display: block;
     flex-basis: 66.66%;
-    margin-left: 35px; 
+    margin-left: 35px;
 }
+
 
 .justificado {
     text-align: justify;
 }
 
-
-
 html {
     font-family: sans-serif;
-    
-  }
+}
 
 .contenido {
-    margin: 40px 80px; 
-    padding: 0 25px;
+    margin: 40px 20px;
+    padding: 0 15px;
     position: relative;
 }
 
 
+
 h5 {
-    background-color:#efdccb;
+    background-color: #efdccb;
     text-align: center;
-    padding: 15px; 
+    padding: 15px;
     font-size: 20px;
-    margin-bottom: 2px; 
+    margin-bottom: 2px;
 }
 
-
-
-h1{
-    background-color:#990134;
-    /*background-color: #706051;*/
-    padding: 15px; 
+h1 {
+    background-color: #990134;
+    padding: 15px;
     text-align: center;
-    font-size: 43px;
+    font-size: 24px;
     color: white;
-    display: flex;
 }
 
-h3{
+
+
+h3 {
     text-align: center;
-    font-size:30px;
+    font-size: 24px;
     color: darkgreen;
-    margin-top: 9px; 
+    margin-top: 9px;
 }
 
-.justificado {
-    text-align: justify;
-}
 
-#Siid{
+#Siid {
     color: #68a7d1;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    
 }
-
-
 
 ul li a {
-    text-decoration: none; /* Quita el subrayado de los enlaces */
+    text-decoration: none;
     color: #68a7d1;
 }
 
 ul li a:hover {
-    color: black; 
+    color: black;
 }
+
 ol li {
-    color:green
+    color: green;
 }
 
-#Asm{
-font-size: 16px;   
+#Asm {
+    font-size: 16px;
 }
-
-
-
-/*Mostrar mas*/
 
 .question {
-    cursor: pointer; 
-    
-}
-.question:hover {
-    color: black; 
+    cursor: pointer;
 }
 
-/* Dar animacion al desplegar*/
+.question:hover {
+    color: black;
+}
+
 .more-info {
     max-height: 0;
     overflow: hidden;
@@ -108,118 +97,92 @@ font-size: 16px;
 }
 
 .more-info.open {
-    max-height: 1000px; 
+    max-height: 1000px;
 }
 
-
-#Pregunta1{
+#Pregunta1 {
     font-size: 16px;
     display: inline-block;
 }
 
 .highlight {
-    background-color: rgba(235, 238, 34, 0.281); 
+    background-color: rgba(235, 238, 34, 0.281);
 }
 
-
-.pag{
+.pag {
     background-color: #d8d2d2;
-    margin:0;
+    margin: 0;
     display: block;
     margin-bottom: 40px;
     margin-top: 40px;
 }
-.formato{
+
+.formato {
     background: #ffffff;
     margin: 0 auto;
     box-shadow: 0 0 2px #bbb;
     max-width: 960px;
-} 
-
- #banner {
-    display: block;
-    max-width: 100%; 
-    height: auto; 
-    margin: 0 auto; 
-    margin-top: 20px; 
-    margin-bottom: 20px; 
 }
 
-
-
-@media (max-width: 768px) {
-   h1 .contenido .colizq, .colder, .formato {
-        flex-basis: 100%; /* Las columnas ocupan el 100% del ancho en pantallas pequeñas */
-        
-    }
+#banner {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #CicloGpr, #Esquema, #Psed, #Sed {
     display: block;
     max-width: 100%;
 }
-.question{
-    color: darkgreen
-}
-p{
-    color: green;
-}
 
-#CoeG{
+.question {
     color: darkgreen;
 }
 
-/*INDICES*/
+p {
+    color: green;
+}
 
+#CoeG {
+    color: darkgreen;
+}
 
-.Indice{ /*IMAGENES IND*/
-    width: 200px;
+.Indice {
+    width: 100%;
+    max-width: 200px;
     margin-top: 10px;
     margin-left: 1px;
     display: block;
 }
 
+
+
 .responsive-table a {
-    display: inline-block; 
+    display: inline-block;
 }
 
-#IND1 {
-    padding: 5px; 
-     margin-left: 1px;
-     margin-top: 25px;
-    color: black;
-}
- 
-#IND2 {
-    padding: 5px; 
-     margin-left: 1px;
-     margin-top: 15px;
+#IND1, #IND2 {
+    padding: 5px;
+    margin-left: 1px;
+    margin-top: 15px;
     color: black;
 }
 
-#IND1 ul li a,
-#IND2 ul li a {
-    color: green; 
-    font-weight: bold; 
+#IND1 ul li a, #IND2 ul li a {
+    color: green;
+    font-weight: bold;
     text-align: justify;
-    font-size:16px ;
-    line-height: 1.5; 
-   
-}
-#IND1 ul li a:hover,
-#IND2 ul li a:hover {
-    color: black; 
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-@media (min-width: 769px) {
-    td:first-child {
-        width: 33.33%;
-    }
-
-    td:last-child {
-        width: 66.66%;
-    }
+#IND1 ul li a:hover, #IND2 ul li a:hover {
+    color: black;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -231,14 +194,84 @@ table {
     transition: background-color 1s ease;
 }
 
-/*footer*/
-footer{
+footer {
     padding: 10px;
     background-color: #333333;
 }
-footer p{
+
+footer p {
     color: white;
-    font-size: 48px;
+    font-size: 24px;
     text-align: center;
-    font-weight: bold; 
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .Indice {
+        width: 200px;
+    }
+}
+@media (min-width: 768px) {
+    footer p {
+        font-size: 48px;
+    }
+}
+@media (min-width: 768px) {
+    h3 {
+        font-size: 30px;
+    }
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 43px;
+        display: flex;
+    }
+}
+
+
+/* Responsivo */
+@media (max-width: 600px) {
+    h5 {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 28px;
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .contenido {
+        margin: 20px 10px;
+        padding: 0 10px;
+    }
+
+    .Indice {
+        width: 100%;
+    }
+
+    .question {
+        font-size: 15px;
+    }
+}
+
+/* Ajustes para pantallas grandes */
+@media (min-width: 768px) {
+    .colizq {
+        flex: 1 1 33.33%;
+    }
+
+    .colder {
+        flex: 1 1 66.66%;
+        margin-left: 35px;
+    }
+
+    .contenido {
+        margin: 40px 80px;
+        padding: 0 25px;
+    }
 }
