@@ -164,6 +164,14 @@ p {
     display: inline-block;
 }
 
+#IND1 ul, #IND2 ul {
+    padding-left: 20px;
+}
+
+#IND1 ul li, #IND2 ul li {
+    list-style-type: disc;
+}
+
 #IND1, #IND2 {
     padding: 5px;
     margin-left: 1px;
