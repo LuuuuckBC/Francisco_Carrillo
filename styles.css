@@ -164,13 +164,7 @@ p {
     display: inline-block;
 }
 
-#IND1 ul, #IND2 ul {
-    padding-left: 20px;
-}
 
-#IND1 ul li, #IND2 ul li {
-    list-style-type: disc;
-}
 
 #IND1, #IND2 {
     padding: 5px;
@@ -265,6 +259,11 @@ footer p {
     .question {
         font-size: 15px;
     }
+    #IND1 ul li a, #IND2 ul li a {
+        display: block;
+        padding: 5px 0;
+        font-size: 14px;
+    }
 }
 
 /* Ajustes para pantallas grandes */
@@ -283,3 +282,4 @@ footer p {
         padding: 0 25px;
     }
 }
+
